@@ -1,8 +1,3 @@
-spring:
-  application:
-    name: spring-api-docs-mcp
-
-# MCP Server Configuration
 mcp:
   # Enable or disable the MCP server
   # - true: Enable MCP server (default)

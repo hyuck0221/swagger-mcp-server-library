@@ -1,0 +1,37 @@
+{
+  "properties": [
+    {
+      "name": "mcp.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enable or disable the MCP server. Set to true to enable, false to disable.",
+      "defaultValue": true
+    },
+    {
+      "name": "mcp.server-info.name",
+      "type": "java.lang.String",
+      "description": "The name of the MCP server displayed to clients.",
+      "defaultValue": "Spring API Docs MCP Server"
+    },
+    {
+      "name": "mcp.server-info.version",
+      "type": "java.lang.String",
+      "description": "The version of the MCP server displayed to clients.",
+      "defaultValue": "1.0.0"
+    }
+  ],
+  "hints": [
+    {
+      "name": "mcp.enabled",
+      "values": [
+        {
+          "value": true,
+          "description": "Enable the MCP server (default)"
+        },
+        {
+          "value": false,
+          "description": "Disable the MCP server"
+        }
+      ]
+    }
+  ]
+}
