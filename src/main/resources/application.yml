@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: spring-api-docs-mcp
+
+# MCP Server Configuration
+mcp:
+  # Enable or disable the MCP server
+  # - true: Enable MCP server (default)
+  # - false: Disable MCP server
+  enabled: true
+
+  # MCP server information
+  server-info:
+    # Server name displayed to MCP clients
+    name: Spring API Docs MCP Server
+    # Server version displayed to MCP clients
+    version: 1.0.0
+
+# ============================================
+# Note: Endpoint Path Configuration
+# ============================================
+# SSE Endpoint: /mcp/sse (fixed, cannot be changed)
+# Message Endpoint: /mcp/message (fixed, cannot be changed)
+#
+# These paths are fixed to comply with the MCP protocol standard
+# and cannot be customized via application.yml configuration.
